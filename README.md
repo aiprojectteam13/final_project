@@ -1,5 +1,5 @@
 # final_project
-Explanation of hyperparameters
+1. Explanation of hyperparameters
 
 [Loss] : torch.nn.CrossEntropyLoss
 
@@ -18,15 +18,15 @@ Batch Size = 16
 
 [Data Augmentation]
 
-1. torchvision.transforms.RandomHorizontalFlip : p=1.0          
+1-1) torchvision.transforms.RandomHorizontalFlip : p=1.0          
 
 원본 Training 데이터를 좌우 대칭시킨 데이터셋을 Training 데이터셋에 추가합니다.
 
-2. torchvision.transforms.Pad                  : padding=5     -> torchvision.transforms.Resize : 원본 이미지 크기
+1-2) torchvision.transforms.Pad                  : padding=5     -> torchvision.transforms.Resize : 원본 이미지 크기
 
 원본 Training 데이터의 외곽에 5픽셀의 수치가 0인 데이터를 추가한 뒤, 원본 이미지의 크기와 똑같도록 크기를 재조정한 데이터셋을 Training 데이터셋에 추가합니다.
 
-3. torchvision.transforms.CenterCrop           : size=5        -> torchvision.transforms.Resize : 원본 이미지 크기
+1-3) torchvision.transforms.CenterCrop           : size=5        -> torchvision.transforms.Resize : 원본 이미지 크기
 
 원본 Training 데이터의 외곽에 5픽셀의 수치만큼의 이미지를 삭제한 뒤, 원본 이미지의 크기와 똑같도록 크기를 재조정한 데이터셋을 Training 데이터셋에 추가합니다.
 
@@ -43,8 +43,8 @@ factor = 0.1
 Batch Size = 4
 
 
-The command you used to train your model
+2. The command you used to train your model
 
-The command you used to test your model
+3. The command you used to test your model
 
-Path to your data
+4. Path to your data
