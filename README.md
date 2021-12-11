@@ -14,7 +14,7 @@ Learning Rate = 0.001
 Epochs = 20
 
 Batch Size = 16
-
+ 
 
 [Data Augmentation]
 
