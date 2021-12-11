@@ -44,5 +44,7 @@ Batch Size = 4
 
 
 The command you used to train your model
+
 The command you used to test your model
+
 Path to your data
