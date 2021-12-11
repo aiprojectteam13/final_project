@@ -42,9 +42,3 @@ factor = 0.1
 Batch Size = 4
 
 Test Loss를 측정하여, 세 번 연속 Loss가 감소하지 않을 경우, torch.Adam Optimizer의 Learning Rate를 1/10로 감소합니다.
-
-2. The command you used to train your model
-
-3. The command you used to test your model
-
-4. Path to your data
